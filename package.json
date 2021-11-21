@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.27.17",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "qrcode.vue": "^3.3.3"
+  },
+  "name": "saintprubyconf-migrations-talk",
+  "devDependencies": {
+    "@iconify-json/logos": "^1.0.1",
+    "@iconify-json/twemoji": "^1.0.2",
+    "playwright-chromium": "^1.16.3"
+  }
+}
